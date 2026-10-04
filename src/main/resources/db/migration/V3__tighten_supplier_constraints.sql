@@ -1,0 +1,3 @@
+ALTER TABLE suppliers
+    ALTER COLUMN email SET NOT NULL,
+    ALTER COLUMN created_at SET NOT NULL;

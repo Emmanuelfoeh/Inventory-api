@@ -1,4 +1,7 @@
 package com.emmano.inventory_api.common.exception;
 
-public class DuplicateSkuException {
+public class DuplicateSkuException extends RuntimeException {
+    public DuplicateSkuException(String sku) {
+        super("A product with sku " + sku + " already exists");
+    }
 }

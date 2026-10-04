@@ -1,8 +1,7 @@
-package com.emmano.inventory_api;
+package com.emmano.inventory_api.product;
 
 import com.emmano.inventory_api.category.Category;
 import com.emmano.inventory_api.category.CategoryRepository;
-import com.emmano.inventory_api.product.Product;
 import com.emmano.inventory_api.supplier.Supplier;
 import com.emmano.inventory_api.supplier.SupplierRepository;
 import jakarta.transaction.Transactional;
